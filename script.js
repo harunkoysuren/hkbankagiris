@@ -42,3 +42,31 @@ bankaCalistir()
 //     }return `#${hexCodeArr.join("")}`
 // }
 // console.log(hexCode())
+
+
+----------------------------------------------------------------------------
+
+
+// function generatePass(){
+//     let karakterler  = [    "a",    "b",    "c",    "ç",    "d",    "e",    "f",    "g",    "ğ",    "h",    "ı",    "i",    "j",    "k",    "l",    "m",    "n",    "o",    "ö",    "p",    "r",    "s",    "ş",    "t",    "u",    "ü",    "v",    "y",    "z",    "q",    "w",    "x",    "A",    "B",    "C",    "Ç",    "D",    "E",    "F",    "G",    "Ğ",    "H",    "I",    "I",    "J",    "K",    "L",    "M",    "N",    "O",    "Ö",    "P",    "R",    "Ş",    "T",    "U",    "Ü",    "V",    "Y",    "Z",    "Q",    "W",    "X",    0,    1,    2,    3,    4,    5,    6,    7,    8,    9,    10,    "!",    "'",    "^",    "+",    "%",    "&",    "/",    "(",    ")",    "=",    "?",    "-", "_",    "*",    ",",    ";",    "`","{",    "}",    "[",    "]",    "@",    "|",    "<",    ">",    ".",    ":",    "é",    "$","#","£","€", "₺"]
+
+
+//     let uzunluk = Number(prompt("Bir Şifre Uzunluğu Giriniz"))
+//     let sifrem = []
+
+
+
+//     for(let i = 0; i < uzunluk; i++){
+//         let random = Math.floor(Math.random() * (karakterler.length - 1)) + 1 
+//         if(sifrem.includes(karakterler[random])){
+//             i--
+//             continue
+            
+//         }else{
+//             sifrem.push(karakterler[random])
+//         }
+//     }
+//     return sifrem.join("")
+// }
+
+// console.log(generatePass())
